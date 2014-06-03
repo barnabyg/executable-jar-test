@@ -9,6 +9,10 @@
   <name>executable-jar-test</name>
   <url>http://maven.apache.org</url>
 
+  <prerequisites>
+    <maven>3.0.1</maven>
+  </prerequisites>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -23,6 +27,7 @@
   </dependencies>
   
   <build>
+
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -37,7 +42,9 @@
         </configuration>
       </plugin>
     </plugins>
+
   </build>
 
   <artifactId>executable-jar-test</artifactId>
+
 </project>
